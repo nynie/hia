@@ -1,2 +1,8 @@
 Travel and Tourism
-benefits: 
+Fast image recognition can be beneficial in tourism through safety measures and precautions, such as scanning suitcases or persons during customs at an airport or other places which require heavy security. Another way it can be useful is through cameras on dashboards of vehicles such as planes, cars, or boats -- it can be used to detect obstacles and notify the driver. A limitation of this, however, may be that the algorithm may detect objects that are not of use to the system and cause redundancies. A risk that follows may be that the system may not be as reliable as human sight/touch and more obscure objects may go completely unnoticed, thus inhibiting everyone's safety.
+-
+Gaming and Entertainment
+Object recognition can be useful in the gaming industry for data collection purposes; whereby they can track player habits and use this information to improve their game. AI can also be advanced and adapted using this information, in order to more accurately replicate a real person's movement and therefore improving the realism of the game. A limitation of this may be that it may be difficult to implement in order to gather data real-time among other processes that occur as the player plays it. A risk of this may be that the algorithm may not be entirely accurate, and so changes made based on unreliable results can be largely detrimental if changes were to be made using this information. 
+-
+Education and Learning
+-
