@@ -1,0 +1,13 @@
+Abstract Thinking - how do you identify a palindrome?
+
+Picture the word in your head, or write it out on a piece of paper so you can envision all the letters individually. In this case, 'racecar'.
+Re-assemble the word so that the last letter goes first, second-to-last letter goes second, etc...
+If all the letters match after being rearranged, then it is a palindrome.
+''racecar''
+''racecar'' (backwards).
+-
+An algorithm to indentify a palindrome
+1. Enter the word, example, ''racecar''
+2. Reverse the word so that it is backwards
+3. Compare all the letters in each position.
+4. If all the letters match, then it is a palindrome.
