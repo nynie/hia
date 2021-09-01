@@ -11,3 +11,8 @@ An algorithm to indentify a palindrome
 2. Reverse the word so that it is backwards
 3. Compare all the letters in each position.
 4. If all the letters match, then it is a palindrome.
+-
+Research - examples of abstractions in computer science.
+- a car, a very complex machine with a simple interface (steering wheel, pedal, gear shift)
+- a game controller, with a few buttons, but a complex control mechanism
+- programming languages, which translate into machine codes.
