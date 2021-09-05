@@ -1,0 +1,29 @@
+import random
+
+dictionary = {'hot':'cold', 'summer':'winter', 'hard':'soft', 'dry':'wet', 'heavy':'light', 'light':'dark', 'weak':'strong', 'male':'female', 'sad':'happy', 'win':'lose', 'small':'big', 'ignore':'pay attention', 'buy':'sell', 'succeed':'fail', 'reject':'accept', 'prevent':'allow', 'exclude':'include' }
+
+wronganswers = {}
+
+rounds = 1
+score = 0
+while rounds <= 10:
+  print('Round', rounds)
+  word1, word2 = random.choice(list(dictionary.items()))
+  dictionary.pop(word1)
+  word3, word4 = random.choice(list(dictionary.items()))
+  print(word1, 'is to', word2, 'as', word3, 'is to...')
+  answer = input()
+  if answer == word4:
+    print('Correct!')
+    score += 1
+  else:
+    print('Incorrect!')
+    wronganswers[word3] = word4
+  
+  
+  rounds += 1
+
+print('Your score is', score, 'out of 10.')
+print('Answers:')
+for i, (key, value) in enumerate(wronganswers.items()):
+  print(key, 'is to', value)
