@@ -1,0 +1,19 @@
+import random
+LotteryNumbers = []
+
+for i in range (0,6):
+  number = random.randint (1,49)
+  while number in LotteryNumbers:
+    number=random.randint(1,49)
+  LotteryNumbers.append(number)
+
+LotteryNumbers.sort()
+
+print('The lottery numbers are...')
+print(LotteryNumbers)
+for i in range (0, 1):
+  number: random.randint (1, 50)
+  if number>=49:
+    print('Bonus Ball!')
+    
+
