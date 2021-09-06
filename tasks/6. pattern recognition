@@ -1,0 +1,32 @@
+import turtle
+
+def petal(t,d,a):
+    for _ in range(2):
+      t.fd(d)
+      t.left(a)
+      t.fd(d)
+      t.left(180-a)
+
+def flower(t, n, r, angle):
+    for i in range(n):
+        petal(t,r,angle)
+        t.left(360.0/n)
+
+def move(t, length):
+    window = turtle.Screen()
+    window.bgcolor("White")
+    t.pu()
+    t.fd(length)
+    t.pd()
+    t.ht()
+
+sam = turtle.Turtle()
+
+sam.speed(99)
+
+
+move(sam, -150)
+
+sam.color("black")
+move(sam, 150)
+flower(sam, 10, 40.0, 60.0)(edited)
