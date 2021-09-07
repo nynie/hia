@@ -1,3 +1,10 @@
+The first step would be to define the function of petal and using that function to make the general shape of each petal that will be created
+The second step is to use the petal function to define a new function with flower. When called upon it will use the defined turtle to create the set amount of petals along with their width and length.
+The third step is to define the move function, this one is just to define which turtle and the length in which the turtle will move.
+The fourth step is to start the program, the turtle will go around in 360 degrees on its current position creating the flower petals one by one.
+
+
+code:
 import turtle
 
 def petal(t,d,a):
